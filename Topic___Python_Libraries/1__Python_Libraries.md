@@ -45,9 +45,10 @@ pip install jupyterlab
 ```
 <br/>
 
+- **`jupyterlab`**: Main code editor for AI 
+  
+- You can also use " colab "
 
-> You can use locally (`jupyterlab`) or you can use in `colab` also.
-
 <br/>
 <br/>
 <br/>
@@ -55,7 +56,8 @@ pip install jupyterlab
 <br/>
 <br/>
 
-## Importing Library and Alias (Shorter-name)
+## Importing Library 
+### Alias (Shorter-name) ------ `as`
 
 <br/>
 <br/>
@@ -86,15 +88,3 @@ import numpy as np
 x = np.ndarray( [1,2,3] )
 #   ^
 ```
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## Using Library in Python
-
-### Pandas
-
