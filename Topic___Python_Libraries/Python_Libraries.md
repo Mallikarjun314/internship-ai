@@ -55,24 +55,36 @@ pip install jupyterlab
 <br/>
 <br/>
 
-## Importing Library
+## Importing Library and Alias (Shorter-name)
 
-> `import` `<library-name>` `as` `<short-name>`
+<br/>
+<br/>
+
+> Accessing Functions a Library
+
+<br/>
+
+
+- `import` __________ `as` _____
+- `import` pandas `as` pd
+- `import` numpy `as` np
+
+<br/>
 
 #### Example:
 
 ```py
 import numpy
 
-x = numpy.ndarray([1,2,3,4])
-
+x = numpy.ndarray(  [1,2,3] )
+#   ^
 ```
 
 ```py
 import numpy as np
 
-x = np.ndarray([1,2,3,4])
-
+x = np.ndarray( [1,2,3] )
+#   ^
 ```
 
 <br/>
@@ -85,7 +97,4 @@ x = np.ndarray([1,2,3,4])
 ## Using Library in Python
 
 ### Pandas
-
-- `import` __________ `as` ____
-- `import` pandas `as` pd
 
