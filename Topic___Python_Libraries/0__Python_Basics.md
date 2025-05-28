@@ -2,7 +2,7 @@
 
 <br/>
 
-## Multiple files in python
+## 1. Multiple files in python
 
 Lets create two files in same folder
 ```text
@@ -45,7 +45,7 @@ hello.sayHello("Tom")        # Hello Tom
 <br/>
 
 
-## Finding the type of a variable
+## 2. Finding the type of a variable
 
 <br/>
 <br/>
