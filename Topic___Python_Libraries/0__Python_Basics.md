@@ -6,7 +6,7 @@
 
 Lets create two files in same folder
 ```text
-my_folder/
+my_folder_1/
     |___ hello.py
     |___ my_code.py
 ```
