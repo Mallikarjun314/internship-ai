@@ -2,7 +2,7 @@
 
 ![Python_Lib_Intro](./images/py-lib-intro.jpg)
 
-The 4 Basic Libraries
+## 1. The 4 Basic Libraries
 
 | No. | Library      | Purpose | Installing               |
 | --- | ------------ | ------- | ------------------------ |
@@ -18,7 +18,7 @@ The 4 Basic Libraries
 <br/>
 <br/>
 
-## Installing Libraries
+## 2. Installing Libraries
 
 <br/>
 
@@ -56,24 +56,42 @@ pip install jupyterlab
 <br/>
 <br/>
 
-## Importing Library 
-### Alias (Shorter-name) ------ `as`
+## 3. Importing and using Libraries
 
 <br/>
 <br/>
 
-> Accessing Functions a Library
+### Keywords
+| keyword  | Purpose        |
+| -------- | -------------- |
+| `from`   | Module path    |
+| `import` | What to import |
+| `as`     | Shorter-name   |
 
 <br/>
+<br/>
+<br/>
 
+#### Format:
 
 - `import` __________ `as` _____
-- `import` pandas `as` pd
-- `import` numpy `as` np
 
+
+<br/>
 <br/>
 
 #### Example:
+
+- `import` pandas `as` pd
+
+- `import` numpy `as` np
+
+<br/>
+<br/>
+
+#### Example:
+
+<br/>
 
 ```py
 import numpy
@@ -81,6 +99,8 @@ import numpy
 x = numpy.ndarray(  [1,2,3] )
 #   ^
 ```
+<br/>
+
 
 ```py
 import numpy as np

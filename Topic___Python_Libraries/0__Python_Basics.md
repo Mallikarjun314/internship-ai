@@ -4,13 +4,19 @@
 
 ## 1. Multiple files in python
 
+<br/>
+<br/>
+
+
 ### Example 1
 
 Lets create two files in same folder
 ```text
-my_folder_1/
-    |___ hello.py
-    |___ my_code.py
+📂 my_folder_1/
+    |
+    |___ 📃 hello.py
+    |
+    |___ 📃 my_code.py
 ```
 
 <br/>
@@ -27,6 +33,9 @@ def sayHello(name):
 <br/>
 
 - `my_code.py`
+
+1
+
 ```py
 # Part - 1
 import hello
@@ -36,6 +45,31 @@ hello.sayHello("Tom")        # Hello Tom
 ```
 
 <br/>
+
+2
+
+```py
+# Part - 1
+import hello as h
+
+# Part - 2
+h.sayHello("Tom")        # Hello Tom
+```
+
+<br/>
+
+3
+
+```py
+# Part - 1
+from hello import sayHello
+
+# Part - 2
+sayHello("Tom")        # Hello Tom
+```
+
+<br/>
+<br/>
 <br/>
 
 - Lets run `my_code.py` file and see the output
@@ -43,6 +77,14 @@ hello.sayHello("Tom")        # Hello Tom
 `python   my_code.py`
 
 <br/>
+<br/>
+
+| keyword  | Purpose        |
+| -------- | -------------- |
+| `from`   | Module path    |
+| `import` | What to import |
+| `as`     | Shorter-name   |
+
 <br/>
 <br/>
 

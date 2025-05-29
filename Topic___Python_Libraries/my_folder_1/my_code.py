@@ -1,3 +1,3 @@
-import hello
+from hello import sayHello
 
-hello.sayHello( "World" )
+sayHello( "Tom" )
