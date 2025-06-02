@@ -98,6 +98,15 @@ Computer Vision helps machines **see and understand images or videos**.
 * Can detect objects, read handwriting, or classify photos.
 * Example: Unlocking a phone with facial recognition.
 
+### Examples :
+#### Object Localization
+![CV](./imgs/cv/loc_2.jpg)
+![CV](./imgs/cv/loc_3.jpg)
+#### Self Driving Cars
+![CV](./imgs/cv/sdc.gif)
+#### Others
+![CV](./imgs/cv/cv_all.jpeg)
+
 \
 \
 \
@@ -115,6 +124,14 @@ Reinforcement Learning is about training an agent to make decisions by **reward 
 * The agent learns by trying actions and learning from the results.
 * Used in robotics, game playing, and autonomous systems.
 * Example: A robot learning to walk or a program playing chess.
+
+### Example :
+|                           |
+| ------------------------- |
+| ![RL](./imgs/rl/rl_1.gif) |
+| ![RL](./imgs/rl/rl_2.gif) |
+| ![RL](./imgs/rl/rl_3.gif) |
+| ![RL](./imgs/rl/rl_4.gif) |
 
 \
 \

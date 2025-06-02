@@ -1,25 +1,52 @@
 # Machine Learning Task Categories
 
-![Ai\_Task\_Categories](./imgs/ai_task_categories.jpg)
+![Ai\_Task\_Categories](./imgs/ml_task_categories.jpg)
+
+\
+\
+\
+\
+
+# Machine Learning Definitions
+
+1. Machine learning (ML) is a field of artificial intelligence (AI) that focuses on enabling computers to learn from data without being explicitly programmed.
+2. Automating Learning Process
+
+\
+\
+\
+\
+
+# The 4 Main Algorithms we will learn
+
+1. ### Supervised Learning
+   1. Regression
+      1. `Linear Regression`
+   2. Classification
+      1. `Decision Trees`
+      2. `K - Nearest Neighbours`
+2. ### Unsupervised Learning
+   1. Clustering
+      1. `K - Means Clustering`
 
 \
 \
 \
 \
 \
-.
+\
 
 # 1. Regression (Supervised)
 \
 \
-.
+\
 ### **Definition**:
 
 Prediction of a **numerical (continuous)** variable, where the output is a real value such as price, temperature, or age.
 
 \
 \
-.
+\
 
 ### **Common Algorithms**:
 
@@ -28,7 +55,7 @@ Prediction of a **numerical (continuous)** variable, where the output is a real 
 
 \
 \
-.
+\
 
 | Algorithm                            | Definition                                                                                                   |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
@@ -45,13 +72,12 @@ Prediction of a **numerical (continuous)** variable, where the output is a real 
 \
 \
 \
-.
+\
 
 # 2. Classification (Supervised)
 
 \
 \
-.
 
 ### **Definition**:
 
@@ -59,7 +85,6 @@ Prediction of a **categorical** variable, i.e., assigning input data into predef
 
 \
 \
-.
 
 ### **Common Algorithms**:
 
@@ -69,7 +94,6 @@ Prediction of a **categorical** variable, i.e., assigning input data into predef
 
 \
 \
-.
 
 
 | Algorithm                                    | Definition                                                                              |
@@ -86,13 +110,11 @@ Prediction of a **categorical** variable, i.e., assigning input data into predef
 \
 \
 \
-.
 
 # 3. Clustering (Unsupervised)
 
 \
 \
-.
 
 
 ### **Definition**:
@@ -101,7 +123,6 @@ Prediction of a **categorical** variable, i.e., assigning input data into predef
 
 \
 \
-.
 
 
 ### **Common Algorithms**:
@@ -110,7 +131,6 @@ Prediction of a **categorical** variable, i.e., assigning input data into predef
 
 \
 \
-.
 
 
 | Algorithm                                                                | Definition                                                                           |
