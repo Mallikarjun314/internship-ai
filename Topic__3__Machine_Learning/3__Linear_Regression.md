@@ -1,7 +1,6 @@
 # Linear Regression
 
 
-
 | House Size - sqft (`  X  `) | Price - $ 1000 (`  Y  `) |
 | --------------------------- | ------------------------ |
 | 800                         | 150                      |
@@ -14,3 +13,17 @@
 | 2500                        | 350                      |
 | 2700                        | 370                      |
 | 3000                        | 400                      |
+
+# Error Calculation
+
+1. Sum 
+2. Mean
+3. Mean Squared Error (MSE)
+
+\
+\
+\
+\
+\
+
+# 
