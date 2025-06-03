@@ -90,7 +90,7 @@ Natural Language Processing (NLP) allows machines to understand and respond to *
 
 ## 3.2 Computer Vision
 
-![CV](./imgs/cv.avif)
+![CV](./imgs/cv/cv.avif)
 
 Computer Vision helps machines **see and understand images or videos**.
 
@@ -101,10 +101,17 @@ Computer Vision helps machines **see and understand images or videos**.
 ### Examples :
 #### Object Localization
 ![CV](./imgs/cv/loc_2.jpg)
+\
+\
+\
 ![CV](./imgs/cv/loc_3.jpg)
 #### Self Driving Cars
 ![CV](./imgs/cv/sdc.gif)
 #### Others
+![CV](./imgs/cv/cv_1.png)
+\
+\
+\
 ![CV](./imgs/cv/cv_all.jpeg)
 
 \
@@ -117,6 +124,8 @@ Computer Vision helps machines **see and understand images or videos**.
 
 ## 3.3 Reinforcement Learning
 
+1. Score Reward & Penality
+
 ![RL](./imgs/rl.jpg)
 
 Reinforcement Learning is about training an agent to make decisions by **reward and punishment**.
@@ -126,12 +135,23 @@ Reinforcement Learning is about training an agent to make decisions by **reward 
 * Example: A robot learning to walk or a program playing chess.
 
 ### Example :
-|                           |
-| ------------------------- |
-| ![RL](./imgs/rl/rl_1.gif) |
-| ![RL](./imgs/rl/rl_2.gif) |
-| ![RL](./imgs/rl/rl_3.gif) |
-| ![RL](./imgs/rl/rl_4.gif) |
+
+![RL](./imgs/rl/rl_1.gif) 
+\
+\
+\
+\
+![RL](./imgs/rl/rl_2.gif) 
+\
+\
+\
+\
+![RL](./imgs/rl/rl_3.gif) 
+\
+\
+\
+\
+![RL](./imgs/rl/rl_4.gif) 
 
 \
 \
@@ -142,6 +162,10 @@ Reinforcement Learning is about training an agent to make decisions by **reward 
 .
 
 ## 3.4 Recommender Systems
+
+1. Similarity Score
+2. Vector Representation
+
 ![RS](./imgs/rs.png)
 
 Recommender Systems suggest items based on user preferences or behavior.

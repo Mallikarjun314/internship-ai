@@ -113,6 +113,11 @@ Prediction of a **categorical** variable, i.e., assigning input data into predef
 
 # 3. Clustering (Unsupervised)
 
+1. Partitions
+2. Hyper-Dimensions
+3. Centroids
+
+![CLS](./imgs/clustering_1.gif)
 \
 \
 
@@ -129,6 +134,7 @@ Prediction of a **categorical** variable, i.e., assigning input data into predef
 
 1. **K-Means Clustering** - Partitions data into *k* clusters by minimizing intra-cluster variance.
 
+
 \
 \
 
@@ -142,3 +148,6 @@ Prediction of a **categorical** variable, i.e., assigning input data into predef
 | **Agglomerative Clustering**                                             | A type of hierarchical clustering that builds clusters from the bottom-up.           |
 | **Spectral Clustering**                                                  | Uses graph theory and eigenvalues for dimensionality reduction before clustering.    |
 | **Birch (Balanced Iterative Reducing and Clustering using Hierarchies)** | Efficient for large datasets.                                                        |
+
+![CLS](./imgs/clustering_2.gif)
+![CLS](./imgs/clustering_3d.gif)
