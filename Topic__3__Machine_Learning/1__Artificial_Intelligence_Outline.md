@@ -113,6 +113,23 @@ Computer Vision helps machines **see and understand images or videos**.
 \
 \
 ![CV](./imgs/cv/cv_all.jpeg)
+\
+\
+\
+![CV](./imgs/cv/cv_digits.gif)
+\
+\
+\
+### Human Pose Estimation
+![CV](./imgs/cv/cv_pose)
+\
+\
+\
+![CV](./imgs/cv/cv_pose_circket.png)
+\
+\
+\
+![CV](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju5BNMgQYeE9f8fTIExf2qW4JTveDA2sfk5HmAQOZamLVBOPUKcVKkObW_6TfgTTr08usiwi4y1gvVhQfrkAzOhQeuHRa41IN9MvfIOXGqPIsbqsFAxL1USY3o21xOSvhyphenhyphenYHGSaXe8mbA/s0/TF+image+2.gif)
 
 \
 \
