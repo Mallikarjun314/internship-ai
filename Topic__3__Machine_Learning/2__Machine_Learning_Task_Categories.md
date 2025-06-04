@@ -22,6 +22,7 @@
 1. ### Supervised Learning
    1. Regression
       1. `Linear Regression`
+      2. `Polynomial Regression`
    2. Classification
       1. `Decision Trees`
       2. `K - Nearest Neighbours`
