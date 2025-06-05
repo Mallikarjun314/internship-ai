@@ -262,3 +262,19 @@ This dataset provides a comprehensive collection of synthetic job postings to fa
 
 ### Overview
 Supply chain analytics is a valuable part of data-driven decision-making in various industries such as manufacturing, retail, healthcare, and logistics. It is the process of collecting, analyzing and interpreting data related to the movement of products and services from suppliers to customers.
+
+\
+\
+\
+\
+\
+\
+
+
+# World Air Quality Index by City and Coordinates
+
+1. **Dataset Link**: https://www.kaggle.com/datasets/adityaramachandran27/world-air-quality-index-by-city-and-coordinates
+
+### Overview
+The goal of this dataset is to provide valuable insights into the air quality of different regions, allowing researchers and policymakers to make informed decisions on how to address the issue of air pollution.
+This dataset is a merger of two separate datasets, one containing information about cities and their corresponding latitude and longitude coordinates, and the other containing data on air pollution levels in countries across the world. By combining these two datasets, we can now analyze and compare air quality indices across different cities in various countries.
