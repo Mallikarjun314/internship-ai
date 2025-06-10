@@ -1,6 +1,6 @@
 # Artificial Intelligence Outline
 
-![AI_Outline](./imgs/ai_outline.png)
+![AI_Outline](../images/AI_ML/ai_outline.png)
 
 \
 \
@@ -11,7 +11,7 @@
 .
 # 1. Rule Based Models
 
-![Rule_based_AI](./imgs/rule_based_ai.webp)
+![Rule_based_AI](../images/AI_ML/rule_based_ai.webp)
 
 Rule-based models use a set of **if-then rules** created by humans to make decisions or solve problems.
 
@@ -30,7 +30,7 @@ Rule-based models use a set of **if-then rules** created by humans to make decis
 
 # 2. Machine Learning Models
 
-![Machine_Learning](./imgs/ml.webp)
+![Machine_Learning](../images/AI_ML/ml.webp)
 
 Machine Learning (ML) models **learn from data** instead of being explicitly programmed.
 
@@ -40,7 +40,7 @@ Machine Learning (ML) models **learn from data** instead of being explicitly pro
 * Example: Email spam filters that learn to detect spam based on past emails.
 
 ### ML Outline
-![ML_outline](./imgs/ml_models.png)
+![ML_outline](../images/AI_ML/ml_models.png)
 
 \
 \
@@ -52,7 +52,7 @@ Machine Learning (ML) models **learn from data** instead of being explicitly pro
 
 # 3. Deep Learning Models (Neural Networks)
 
-![NN](./imgs/nn.gif)
+![NN](../images/AI_ML/nn.gif)
 
 Deep Learning is a type of Machine Learning that uses **neural networks** with many layers to understand complex patterns.
 
@@ -72,7 +72,7 @@ Deep Learning is a type of Machine Learning that uses **neural networks** with m
 
 ## 3.1 Natural Language Processing
 
-![NLP_GenAI](./imgs/nlp_app_genai.webp)
+![NLP_GenAI](../images/Natural_Language_Processing/nlp_app_genai.webp)
 
 Natural Language Processing (NLP) allows machines to understand and respond to **human language**.
 
@@ -90,7 +90,7 @@ Natural Language Processing (NLP) allows machines to understand and respond to *
 
 ## 3.2 Computer Vision
 
-![CV](./imgs/cv/cv.avif)
+![CV](../images/Computer_Vision/cv.avif)
 
 Computer Vision helps machines **see and understand images or videos**.
 
@@ -100,32 +100,32 @@ Computer Vision helps machines **see and understand images or videos**.
 
 ### Examples :
 #### Object Localization
-![CV](./imgs/cv/loc_2.jpg)
+![CV](../images/Computer_Vision/loc_2.jpg)
 \
 \
 \
-![CV](./imgs/cv/loc_3.jpg)
+![CV](../images/Computer_Vision/loc_3.jpg)
 #### Self Driving Cars
-![CV](./imgs/cv/sdc.gif)
+![CV](../images/Computer_Vision/sdc.gif)
 #### Others
-![CV](./imgs/cv/cv_1.png)
+![CV](../images/Computer_Vision/cv_1.png)
 \
 \
 \
-![CV](./imgs/cv/cv_all.jpeg)
+![CV](../images/Computer_Vision/cv_all.jpeg)
 \
 \
 \
-![CV](./imgs/cv/cv_digits.gif)
+![CV](../images/Computer_Vision/cv_digits.gif)
 \
 \
 \
 ### Human Pose Estimation
-![CV](./imgs/cv/cv_pose)
+![CV](../images/Computer_Vision/cv_pose)
 \
 \
 \
-![CV](./imgs/cv/cv_pose_circket.png)
+![CV](../images/Computer_Vision/cv_pose_circket.png)
 \
 \
 \
@@ -143,7 +143,7 @@ Computer Vision helps machines **see and understand images or videos**.
 
 1. Score Reward & Penality
 
-![RL](./imgs/rl.jpg)
+![RL](../images/Reinforcement_Learning/rl_outline.jpg)
 
 Reinforcement Learning is about training an agent to make decisions by **reward and punishment**.
 
@@ -153,22 +153,22 @@ Reinforcement Learning is about training an agent to make decisions by **reward 
 
 ### Example :
 
-![RL](./imgs/rl/rl_1.gif) 
+![RL](../images/Reinforcement_Learning/rl_1.gif)
 \
 \
 \
 \
-![RL](./imgs/rl/rl_2.gif) 
+![RL](../images/Reinforcement_Learning/rl_2.gif)
 \
 \
 \
 \
-![RL](./imgs/rl/rl_3.gif) 
+![RL](../images/Reinforcement_Learning/rl_3.gif)
 \
 \
 \
 \
-![RL](./imgs/rl/rl_4.gif) 
+![RL](../images/Reinforcement_Learning/rl_4.gif)
 
 \
 \
@@ -183,7 +183,7 @@ Reinforcement Learning is about training an agent to make decisions by **reward 
 1. Similarity Score
 2. Vector Representation
 
-![RS](./imgs/rs.png)
+![RS](../images/AI_ML/rs.png)
 
 Recommender Systems suggest items based on user preferences or behavior.
 

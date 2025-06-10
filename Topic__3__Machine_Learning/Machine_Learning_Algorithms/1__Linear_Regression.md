@@ -1,7 +1,7 @@
 # Linear Regression
 
 
-![LR](./imgs/linear_regression_1.gif)
+![LR](./imgs/Linear_Regression/linear_regression_1.gif)
 
 \
 \
@@ -113,7 +113,7 @@
 
 # Model Evaluation (Error Calculation)
 
-![LR](./imgs/linear_regression_2.gif)
+![LR](./imgs/Linear_Regression/linear_regression_2.gif)
 
 ### Different Metrics :
 
@@ -153,7 +153,7 @@
   - $y = 2~x+5$
 
 ### Example 2 :
-![LR](./imgs/linear_regression_3.gif)
+![LR](./imgs/Linear_Regression/linear_regression_3.gif)
 
 \
 \
