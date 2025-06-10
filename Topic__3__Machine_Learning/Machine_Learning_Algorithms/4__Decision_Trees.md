@@ -102,12 +102,12 @@ This continues until:
 
 > Tools like **Scikit-learn** provide `DecisionTreeClassifier` and `plot_tree()` to visualize the tree.
 
-> Each node shows:
->
-> * Feature used for split
-> * Threshold value
-> * Class distribution
-> * Gini/Entropy score
+Each node shows:
+
+* Feature used for split
+* Threshold value
+* Class distribution
+* Gini/Entropy score
 
 \
 \
@@ -155,8 +155,6 @@ A tree that grows too deep can **overfit** the training data.
 
 ### Implementation
 
-- Let’s implement a simple decision tree using **Scikit-learn**:
-
 ```python
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.datasets import load_iris
@@ -168,3 +166,179 @@ clf.fit(X, y)
 
 tree.plot_tree(clf, feature_names=load_iris().feature_names)
 ```
+
+
+# Classification Task - Evaluation Metrics
+
+## 1. Confusion Matrix
+
+* Table showing **TP**, **FP**, **TN**, **FN** per class
+* Useful for **detailed error analysis**
+
+Example for binary:
+
+```text
+               Predicted
+              |    0    |  1
+       -------------------------
+          0   |   TN    |  FP
+Actual -------------------------
+          1   |   FN    |  TP
+```
+
+\
+\
+\
+\
+\
+\
+
+
+## 2. Basic Metrics ⭐
+
+### ✅ **Accuracy**
+
+$$
+\text{Accuracy} = \frac{\text{TP + TN}}{\text{TP + TN + FP + FN}}
+$$
+
+* **Best for**: Balanced datasets
+* **Misleading if**: Classes are imbalanced
+
+---
+
+### ✅ **Precision**
+
+$$
+\text{Precision} = \frac{\text{TP}}{\text{TP + FP}}
+$$
+
+* **Tells you**: Out of all predicted positives, how many were correct
+* **Important for**: Minimizing false positives (e.g., spam detection)
+
+---
+
+### ✅ **Recall (Sensitivity, TPR)**
+
+$$
+\text{Recall} = \frac{\text{TP}}{\text{TP + FN}}
+$$
+
+* **Tells you**: Out of all actual positives, how many were correctly predicted
+* **Important for**: Minimizing false negatives (e.g., disease diagnosis)
+
+---
+
+### ✅ **F1 Score**
+
+$$
+\text{F1} = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision + Recall}}
+$$
+
+* **Best for**: Imbalanced datasets
+* **Balances**: Precision and Recall
+
+\
+\
+\
+\
+\
+\
+\
+
+## 3. Multi-Class and Averaging Metrics ⭐
+
+* **Normal Average**: Mean of metric for each class (treats all classes equally)
+* **Weighted Average**: Like macro, but weighted by number of instances per class
+
+\
+\
+\
+\
+\
+\
+
+
+## **4. ROC and AUC**
+
+### ✅ **ROC Curve**
+
+* Plots **True Positive Rate** (Recall) vs **False Positive Rate**
+
+### ✅ **AUC (Area Under Curve)**
+
+* **AUC = 1.0**: Perfect
+* **AUC = 0.5**: Random guessing
+* Useful for **binary classifiers**
+
+\
+\
+\
+\
+\
+\
+
+
+## **5. Precision-Recall (PR) Curve**
+
+* More informative than ROC when **positive class is rare**
+* Plots **Precision vs Recall** at different thresholds
+
+\
+\
+\
+\
+\
+\
+
+
+## **6. Log Loss (Cross-Entropy Loss)**
+
+$$
+\text{LogLoss} = -\frac{1}{N} \sum_{i=1}^{N} y_i \log(p_i)
+$$
+
+* Penalizes **confident but wrong** predictions
+* Lower is better
+* Often used during training and evaluation
+
+\
+\
+\
+\
+\
+\
+
+
+## 7. Matthews Correlation Coefficient (MCC)
+
+$$
+\text{MCC} = \frac{(TP \cdot TN - FP \cdot FN)}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(TN+FN)}}
+$$
+
+* Balanced measure even for **imbalanced datasets**
+* Range: –1 (inverse) to +1 (perfect)
+
+\
+\
+\
+\
+\
+\
+
+
+## Summary Table
+
+| Metric           | Best For                  | Notes                               |
+| ---------------- | ------------------------- | ----------------------------------- |
+| Accuracy         | Balanced datasets         | Misleading with imbalance           |
+| Precision        | Reducing false positives  | Spam filters                        |
+| Recall           | Reducing false negatives  | Medical, fraud detection            |
+| F1 Score         | Imbalanced data           | Harmonic mean of precision & recall |
+| ROC-AUC          | Probabilistic classifiers | Good for ranking ability            |
+| PR-AUC           | Imbalanced positive class | Better than ROC in this case        |
+| Confusion Matrix | All classifiers           | Visual error breakdown              |
+| Log Loss         | Probabilistic output      | Lower is better                     |
+| Top-K Accuracy   | Image, NLP (multi-class)  | Used with softmax outputs           |
+| MCC              | Any class balance         | Balanced metric for binary class    |
+| Cohen’s Kappa    | Human-level tasks         | Inter-rater agreement adjustment    |

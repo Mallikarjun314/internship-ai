@@ -1,54 +1,7 @@
 # Linear Regression
 
 
-![LR](./imgs/Linear_Regression/linear_regression_1.gif)
-
-\
-\
-\
-\
-\
-
-
-### Terminology
-
-1. Iteration / Epoch
-2. **Regression**: Predicting Neumeric Value
-3. **Classification**: Predicting a Categorical Value
-4. Equation / Function
-5. Linear Equations
-6. Quadratic Equation
-7. Cubic Equations
-8. Polynimial Equations
-9.  Outliers
-10. Optmization
-11. Model Optimization or Model Training
-12. Gradient Descent
-13. Stochastic Gradient Descent
-14. Overfitting & Underfitting
-15. Feature Engineering
-16. Feature scaling / normalization
-17. Chain Rule (Calculus)
-18. Eucledian Distance
-
-\
-\
-\
-\
-\
-
-
-### ML Development Lifecycle
-
-1. Understanding the Task (Goals)
-2. Gathering Relevant Datasets
-3. Data Cleaning
-4. Data Visualization
-5. Data Analysis
-6. Model Selection (a.k.a The Algorithm)
-7. Model Training
-8. Model Evaluation
-9. Model Deployment (Integration)
+![LR](../images/Linear_Regression/linear_regression_1.gif)
 
 \
 \
@@ -113,7 +66,7 @@
 
 # Model Evaluation (Error Calculation)
 
-![LR](./imgs/Linear_Regression/linear_regression_2.gif)
+![LR](../images/Linear_Regression/linear_regression_2.gif)
 
 ### Different Metrics :
 
@@ -153,25 +106,132 @@
   - $y = 2~x+5$
 
 ### Example 2 :
-![LR](./imgs/Linear_Regression/linear_regression_3.gif)
+![LR](../images/Linear_Regression/linear_regression_3.gif)
 
 \
 \
 \
 \
 \
-
-# Training and Testing Data
-
-### Main Dataset
-
-### Training Dataset
-
-### Testing Dataset
-
+\
 \
 \
 \
 \
 \
 
+# Model Evaluation - Regression Task
+
+## ✅ 1. Mean Absolute Error (MAE)
+
+$$
+\text{MAE} = \frac{1}{n} \sum |y_{\text{true}} - y_{\text{pred}}|
+$$
+
+* **Interpretation**: Average absolute difference between prediction and actual value
+* **Robust to outliers**: ✅ (compared to MSE)
+
+```python
+from sklearn.metrics import mean_absolute_error
+mae = mean_absolute_error(y_test, y_pred)
+```
+
+---
+
+## ✅ **2. Mean Squared Error (MSE)**
+
+$$
+\text{MSE} = \frac{1}{n} \sum (y_{\text{true}} - y_{\text{pred}})^2
+$$
+
+* **Interpretation**: Penalizes larger errors more heavily
+* **Sensitive to outliers**: ✅
+
+```python
+from sklearn.metrics import mean_squared_error
+mse = mean_squared_error(y_test, y_pred)
+```
+
+---
+
+## ✅ **3. Root Mean Squared Error (RMSE)**
+
+$$
+\text{RMSE} = \sqrt{\text{MSE}}
+$$
+
+* **Same units** as target variable
+* **Popular and interpretable**
+
+```python
+rmse = mean_squared_error(y_test, y_pred, squared=False)
+# or:
+import numpy as np
+rmse = np.sqrt(mse)
+```
+
+---
+
+## ✅ **4. R-squared (R² Score)**
+
+$$
+R^2 = 1 - \frac{\sum (y_{\text{true}} - y_{\text{pred}})^2}{\sum (y_{\text{true}} - \bar{y})^2}
+$$
+
+* **Explained variance**: How much of the variance is captured by the model
+* R² = 1: Perfect model, R² = 0: Mean-only model
+* Can be **negative** if model performs worse than baseline
+
+```python
+from sklearn.metrics import r2_score
+r2 = r2_score(y_test, y_pred)
+```
+
+---
+
+## ✅ **5. Mean Absolute Percentage Error (MAPE)**
+
+$$
+\text{MAPE} = \frac{100}{n} \sum \left| \frac{y_{\text{true}} - y_{\text{pred}}}{y_{\text{true}}} \right|
+$$
+
+* **Percentage-based error**
+* Sensitive when `y_true` values are close to 0
+
+```python
+from sklearn.metrics import mean_absolute_percentage_error
+mape = mean_absolute_percentage_error(y_test, y_pred)
+```
+
+---
+
+## ✅ Summary Table
+
+| Metric | Good For               | Sensitive to Outliers? | Output Unit          |
+| ------ | ---------------------- | ---------------------- | -------------------- |
+| MAE    | Interpretability       | ❌                      | Same as target       |
+| MSE    | Penalizing big errors  | ✅                      | Squared target units |
+| RMSE   | Popular, interpretable | ✅                      | Same as target       |
+| R²     | Explained variance     | ❌                      | Unitless             |
+| MAPE   | Percent error          | ✅ (zero-division risk) | %                    |
+
+---
+
+### ✅ Example Code Block
+
+```python
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, mean_absolute_percentage_error
+import numpy as np
+
+mae = mean_absolute_error(y_test, y_pred)
+mse = mean_squared_error(y_test, y_pred)
+rmse = np.sqrt(mse)
+r2 = r2_score(y_test, y_pred)
+mape = mean_absolute_percentage_error(y_test, y_pred)
+
+print(f"MAE: {mae:.2f}")
+print(f"MSE: {mse:.2f}")
+print(f"RMSE: {rmse:.2f}")
+print(f"R² Score: {r2:.2f}")
+print(f"MAPE: {mape:.2%}")
+```
