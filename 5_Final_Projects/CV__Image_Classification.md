@@ -1,4 +1,50 @@
-# Image Classification
+# Project Rough Outline
+
+1. key Libraries and Tools ⭐
+   1. `tensorflow`, `keras` - Library
+   2. `opencv` - Library
+   3. `matplotlib` - Library
+   4. **Google Colab**
+2. Dataset Structure ⭐
+   1. Top Level Folder
+      1. Category 1
+         1. Image 1
+         2. Image 2
+         3. .......
+      2. Category 2
+         1. Image-1
+         2. Image-2
+         3. .......
+      3. .......
+3. Loading Dataset into google drive
+   1. So that you dont have to upload dataset everytime.
+4. Model Compilation Training ⭐
+   1. Trying Different Model Architectures
+   2. And Comparing Model Performance
+5. Saving the Model and Downloading into drive in Tensorflow
+   1. So that once you trained the model it will saved and used later
+6. Model Evaluation ⭐
+   1. Accuracy
+   2. Precision
+   3. Recall
+   4. f1-Score
+   5. Confusion Matrix
+7. Report
+   1. Dataset description.
+   2. Different Model Architectures that you trained.
+   3. Model Evaluation Results.
+   4. Challenges Faced.
+
+\
+\
+\
+\
+\
+\
+\
+\
+
+# Image Classification (CNN)
 
 ## 1. Fruit Classification Dataset ✅
 
@@ -295,3 +341,22 @@ Maize or corn (Zea mays L.) is an important cereal crop of the world. It is a so
 3. Healthy
 4. Northern Leaf Blight
 5. Not Maize Leaf
+
+## MNIST in CSV (Hand written Digit Recognition)
+
+1. **Dataset Link**: https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
+
+The mnist_train.csv file contains the 60,000 training examples and labels. The mnist_test.csv contains 10,000 test examples and labels. Each row consists of 785 values: the first value is the label (a number from 0 to 9) and the remaining 784 values are the pixel values (a number from 0 to 255).
+
+#### Categories :
+
+- Digit - 0
+- Digit - 1
+- Digit - 2
+- Digit - 3
+- Digit - 4
+- Digit - 5
+- Digit - 6
+- Digit - 7
+- Digit - 8
+- Digit - 9
