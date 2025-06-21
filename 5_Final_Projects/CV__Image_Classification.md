@@ -7,11 +7,11 @@
    4. **Google Colab**
 2. Dataset Structure ⭐
    1. Top Level Folder
-      1. Category 1
-         1. Image 1
-         2. Image 2
+      1. Category-1
+         1. Image-1
+         2. Image-2
          3. .......
-      2. Category 2
+      2. Category-2
          1. Image-1
          2. Image-2
          3. .......
@@ -29,11 +29,13 @@
    3. Recall
    4. f1-Score
    5. Confusion Matrix
-7. Report
+7. Report ⭐
    1. Dataset description.
    2. Different Model Architectures that you trained.
    3. Model Evaluation Results.
    4. Challenges Faced.
+8. Model Deployment (If Possible)
+   1. In your Local Laptop
 
 \
 \
