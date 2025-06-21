@@ -105,7 +105,7 @@ Popular and Modern Sneaker Image Classification dataset — a high-quality, clea
 
 
 
-## 6. Musical Instruments
+## 6. Musical Instruments ✅
 
 1. **Dataset Link** : https://www.kaggle.com/datasets/nikolasgegenava/music-instruments
 
@@ -124,58 +124,93 @@ Popular and Modern Sneaker Image Classification dataset — a high-quality, clea
 9.  tabla
 10. violin
 
-## 7. Popular Street Foods Classification
+## 7. Popular Street Foods Classification ✅
 
 1. **Dataset Link** : https://www.kaggle.com/datasets/nikolasgegenava/popular-street-foods
 
 This dataset is designed to support the development and evaluation of machine learning models for classifying images of popular street foods from around the world. It contains high-quality, labeled image data representing various street food categories commonly found in different regions and cultures.
 
-#### Dataset: ()
+#### Dataset: (20)
 
-arepas
+1. arepas
+2. burger
+3. bánh_mì
+4. churros
+5. crepes
+6. currywurst
+7. empanadas
+8. falafel
+9. fish_and_chips
+10. gelato
+11. hot_dog
+12. kebab_(shish_kebab)
+13. pad_thai
+14. pani_puri
+15. pizza_slice
+16. poutine
+17. pretzel
+18. samosas
+19. shawarma
+20. tacos
 
-burger
-
-bánh_mì
-churros
-crepes
-currywurst
-empanadas
-falafel
-fish_and_chips
-gelato
-hot_dog
-kebab_(shish_kebab)
-pad_thai
-pani_puri
-pizza_slice
 
 
 
-## 8. Brain MRI Images for Brain Tumor Detection
+## 8. Brain MRI Images for Brain Tumor Detection ✅
 
 1. **Dataset Link** : https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
 
+#### Categories (2)
 
-## 9. Satellite Image Classification
+1. yes 
+2. no
+
+
+## 9. Satellite Image Classification ❌
 
 1. **Dataset Link**: https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification
 
 The past years have witnessed great progress on remote sensing (RS) image interpretation and its wide applications. With RS images becoming more accessible than ever before, there is an increasing demand for the automatic interpretation of these images. In this context, the benchmark datasets serve as essential prerequisites for developing and testing intelligent interpretation algorithms. After reviewing existing benchmark datasets in the research community of RS image interpretation, this article discusses the problem of how to efficiently prepare a suitable benchmark dataset for RS image interpretation. Specifically, we first analyze the current challenges of developing intelligent algorithms for RS image interpretation with bibliometric investigations. We then present the general guidance on creating benchmark datasets in efficient manners. Following the presented guidance, we also provide an example on building RS image dataset, i.e., Million-AID, a new large-scale benchmark dataset containing a million instances for RS image scene classification. Several challenges and perspectives in RS image annotation are finally discussed to facilitate the research in benchmark dataset construction. We do hope this paper will provide the RS community an overall perspective on constructing large-scale and practical image datasets for further research, especially data-driven ones.
 
-## 10. Chest X-ray Images
+#### Categories: (4)
+
+1. cloudy
+2. desert
+3. green_area
+4. water
+
+## 10. Chest X-ray Images ✅
 
 1. **Dataset Link**: https://www.kaggle.com/datasets/tolgadincer/labeled-chest-xray-images
 
 This dataset contains 5,856 validated Chest X-Ray images. The images are split into a training set and a testing set of independent patients. Images are labeled as (disease:NORMAL/BACTERIA/VIRUS)-(randomized patient ID)-(image number of a patient). For details of the data collection and description, see the referenced paper below. According to the paper, the images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou.
 
-## 11. Mammals Image Classification Dataset (45 Animals)
+#### Categories: (2)
+
+1. NORMAL
+2. PNEUMONIA
+
+## 11. Mammals Image Classification Dataset (45 Animals) ✅
 
 1. **Dataset Link**: https://www.kaggle.com/datasets/asaniczka/mammals-image-classification-dataset-45-animals
 
 The images are in the ImageNet structure, with each class having its own folder containing the respective images. The images have a resolution of 256x256 pixels. This original dataset contains images of 45 different classes of mammals.
 
-## 12. Cifar10 Classification Image
+#### Categores: (45)
+
+1. african_elephant
+2. alpaca
+3. american_bison
+4. anteater
+5. arctic_fox
+6. armadillo
+7. baboon
+8. badger
+9. blue_whale
+
+
+
+## 12. Cifar10 Classification Image ✅
 
 1. **Dataset Link**: https://www.kaggle.com/datasets/gazu468/cifar10-classification-image
 
@@ -193,7 +228,7 @@ The dataset is divided into five training batches and one test batch, each with 
 9.  ship
 10. truck
 
-## 13. Animal Species Classification - V3
+## 13. Animal Species Classification - V3 ✅
 
 1. **Dataset Link**: https://www.kaggle.com/datasets/utkarshsaxenadn/animal-image-classification-dataset
 
@@ -216,7 +251,7 @@ Animal Classification Dataset for Multi-Class Image Classification task. This is
 15. Zebra
 
 
-## 14. Apple Leaf Disease Symptoms Dataset
+## 14. Apple Leaf Disease Symptoms Dataset ✅
 
 1. **Dataset Link**: https://www.kaggle.com/datasets/mhantor/apple-leaf-diseases
 
@@ -229,7 +264,7 @@ The purpose of this dataset is to aid in the development of machine learning mod
 3. Apple_scab
 
 
-## 15. Sugarcane Leaf Disease Dataset
+## 15. Sugarcane Leaf Disease Dataset ✅
 
 1. **Dataset Link**: https://www.kaggle.com/datasets/pritpal2873/sugarcane-leaf-disease-dataset
 
@@ -246,7 +281,7 @@ The Sugarcane Leaf Diseases Dataset is divided into five folders: a regular dire
 4. Rust
 5. Yellow
 
-## 16. Maize Leaf - Disease Identification
+## 16. Maize Leaf - Disease Identification ✅
 
 1. **Dataset Link**: https://www.kaggle.com/datasets/farmannaim/maizeleaf
 
