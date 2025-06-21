@@ -36,6 +36,7 @@
    4. Challenges Faced.
 8. Model Deployment (If Possible)
    1. In your Local Laptop
+9. Presentation ⭐
 
 \
 \
