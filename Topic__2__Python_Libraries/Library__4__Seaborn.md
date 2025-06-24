@@ -1,4 +1,6 @@
-# **Seaborn Visualization Guide**
+# Seaborn Visualization Guide
+![SEABORN](./images/logo-seaborn.png)
+![SEABORN](./images/wallpaper-seaborn.png)
 
 <br/>
 <br/>
@@ -7,9 +9,9 @@
 <br/>
 <br/>
 
-## **1. Bar Plot**
+## 1. Bar Plot
 
-### **Dataset Import**
+##### Dataset Import
 
 ```python
 # Part - 1
@@ -25,10 +27,7 @@ df = sns.load_dataset("penguins")
 print(df.head())
 ```
 
-<br/>
-<br/>
-
-### **API Outline**
+##### API Outline
 | Input       | Description                          |
 | ----------- | ------------------------------------ |
 | `x`         | categorical variable (str)           |
@@ -39,10 +38,7 @@ print(df.head())
 | `palette`   | color palette                        |
 | `estimator` | aggregation function (default: mean) |
 
-<br/>
-<br/>
-
-### **Sample Example**
+##### Sample Example
 
 ```python
 # Part - 1
@@ -68,19 +64,16 @@ plt.show()
 <br/>
 <br/>
 
-## **2. Scatter Plot**
+## 2. Scatter Plot
 
-### **Dataset Import**
+##### Dataset Import
 
 ```python
 df = sns.load_dataset("penguins")
 print(df.head())
 ```
 
-<br/>
-<br/>
-
-### **API Outline**
+##### API Outline
 
 | Input     | Description              |
 | --------- | ------------------------ |
@@ -92,10 +85,7 @@ print(df.head())
 | `size`    | point size               |
 | `palette` | color scheme             |
 
-<br/>
-<br/>
-
-### **Sample Example**
+##### Sample Example
 
 ```python
 # Part - 1
@@ -121,19 +111,16 @@ plt.show()
 <br/>
 <br/>
 
-## **3. Hist Plot**
+## 3. Hist Plot
 
-### **Dataset Import**
+##### Dataset Import
 
 ```python
 df = sns.load_dataset("penguins")
 print(df.head())
 ```
 
-<br/>
-<br/>
-
-### **API Outline**
+##### API Outline
 
 | Input      | Description                                  |
 | ---------- | -------------------------------------------- |
@@ -145,10 +132,8 @@ print(df.head())
 | `element`  | style of bars (`'bars'`, `'step'`, `'poly'`) |
 | `multiple` | `'layer'`, `'stack'`, `'dodge'`              |
 
-<br/>
-<br/>
 
-### **Sample Example**
+##### Sample Example
 
 ```python
 # Part - 1
@@ -176,20 +161,16 @@ plt.show()
 <br/>
 <br/>
 
-## **4. KDE Plot**
+## 4. KDE Plot
 
-### **Dataset Import**
+##### Dataset Import
 
 ```python
 df = sns.load_dataset("penguins")
 print(df.head())
 ```
 
-<br/>
-<br/>
-
-
-### **API Outline**
+##### API Outline
 
 | Input       | Description                                    |
 | ----------- | ---------------------------------------------- |
@@ -200,10 +181,8 @@ print(df.head())
 | `bw_adjust` | bandwidth adjustment                           |
 | `multiple`  | layout option (`'layer'`, `'stack'`, `'fill'`) |
 
-<br/>
-<br/>
 
-### **Sample Example**
+##### Sample Example
 
 ```python
 # Part - 1
@@ -229,16 +208,16 @@ plt.show()
 <br/>
 <br/>
 
-## **5. Box Plot**
+## 5. Box Plot
 
-### **Dataset Import**
+##### Dataset Import
 
 ```python
 df = sns.load_dataset("penguins")
 print(df.head())
 ```
 
-### **API Outline**
+##### API Outline
 
 | Input     | Description                    |
 | --------- | ------------------------------ |
@@ -250,7 +229,7 @@ print(df.head())
 | `orient`  | `'v'` or `'h'` for orientation |
 | `width`   | box width                      |
 
-### **Sample Example**
+##### Sample Example
 
 ```python
 # Part - 1
